@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<h1>mon portifolio</h1>
+<h1 class="title">mon portifolio</h1>
 <body>
     <header>
         <nav>
+            <a href="#contact">Contact</a>
         <ul>
-            <h1>mon portifolio</h1>
+            <h1 class="title">mon portifolio</h1>
             <li><a href="#">Home</a></li>
             <li> <a href="#">About</a></li>
             <li><a href="#">Work</a></li>
@@ -19,7 +21,7 @@
         </ul>
     </header>
     <main>
-    <Section>
+    <Section class="home">
         <h2>HOME</h2>
         <h2>moi,c'est JIHANE ZERGUI</h2>
         <H3>j'ai 16ans,cette annee je passe mon bac</H3>
@@ -53,6 +55,20 @@
 </article>
     </section>
 </main> 
+<footer>
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</footer>
+    
 </body>
-
 </html>

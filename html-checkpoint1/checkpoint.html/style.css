@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+nav ul { display:flex ;
+    list-style-type: none;
+    justify-content: space-around;
+    background-color: rgb(14, 57, 105);
+}
+body {
+    background-color: rgb(14, 17, 46);
+}
+body {font-family: 'Roboto', sans-serif;
+}
+.title {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: rgb(49, 7, 88);
+}
+.home {
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    background-color: rgb(49, 7, 88);
+}
+#contact {
+    padding: 40px;
+    margin: 40px;
+    color: rgb(36, 11, 59);
+    background-color: rgb(75, 52, 138);
+}
+#contact input,
+#contact textarea {
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+}
