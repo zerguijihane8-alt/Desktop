@@ -1,15 +1,60 @@
-navbar {
+.navbar {
 width: 1,440px;
 height: 120px;
 top: 16px;
 angle: 0 deg;
 opacity: 1;
 }
-navbar.logo {
-width: 200;
-height: 50;
-top: 37px;
-left: 48px;
+.logo {
+    width: 200px;
+height: 50px;
 angle: 0 deg;
 opacity: 1;
+font-family: Roboto;
+font-weight: 700;
+font-size: 32px;
+line-height: 50px;
+letter-spacing: 1%;
 }
+h1{
+    background: #FFAD4C;
+    width: 549px;
+height: 148px;
+angle: 0 deg;
+opacity: 1;
+font-family: Roboto;
+font-weight: 700;
+font-size: 64px;
+line-height: 74px;
+letter-spacing: 1%;
+text-transform: capitalize;
+}
+p{
+width: 521;
+height: 102;
+angle: 0 deg;
+opacity: 1;
+font-family: Roboto;
+font-weight: 400;
+font-size: 24px;
+line-height: 34px;
+letter-spacing: 1%;
+background: #4B4B4B;
+}
+button{
+width: 196px;
+height: 58px;
+angle: 0 deg;
+opacity: 1;
+gap: 10px;
+border-radius: 8px;
+padding-top: 12px;
+padding-right: 23px;
+padding-bottom: 12px;
+padding-left: 23px;
+background: #FFAD4C;
+backdrop-filter: blur(4px);
+}
+
+
+    

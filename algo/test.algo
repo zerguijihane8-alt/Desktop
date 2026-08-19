@@ -1,0 +1,16 @@
+ALGORITHM algorithmSwap
+VAR
+    let compteurLongueur=0;
+    let compteurmots=1;
+    let compteurVoyelles=0;
+    const voyelles="aeiouyAEIOUY";
+
+BEGIN
+for (var i=0;i<phrase.length;i++){
+const caractere=phrase[i];
+if(caractere===".")break;
+compteurLongueur++;
+if(caractere==="")compteurMots++;
+if(voyelles.includes(caractere))compteurVoyelles++;
+}
+END
