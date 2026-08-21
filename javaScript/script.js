@@ -1,4 +1,4 @@
-// reverse a string
+//  reverse a string
 function reverseString(text) {
 // splits string into an Array, reverses ImageTrack, and joins it back
 return text.split('').reverse().join('');
